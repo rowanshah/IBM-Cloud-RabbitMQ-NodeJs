@@ -1,0 +1,7 @@
+---
+applications:
+- name:    my-app-nodejs
+  host:    whateveryoulike
+  memory:  128M
+  services: 
+    - my-compose-for-rabbitmq-service
